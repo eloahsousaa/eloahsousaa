@@ -60,7 +60,7 @@ Tenho conhecimento em `HTML`, `CSS`, `JavaScript`, `Typescript`, `Node.js`, `Pos
 
 --- 
 
-<img src="assets/gatinhoroxo.jpeg" width=300 align="right">
+<img src="assets/enderman.gif" width=300 align="right">
 
 <div align="justify">
     
@@ -68,7 +68,7 @@ Tenho conhecimento em `HTML`, `CSS`, `JavaScript`, `Typescript`, `Node.js`, `Pos
 Fora do código, sou apaixonada por **gatos**, **livros**, **arte** e um bom **café**. Curto muito **jogos de história** e **mundo aberto**, e sou viciada em `Overwatch`. Também sou super fã do `universo do George R. R. Martin`!! </br>
 Estou sempre em constante aprendizado, buscando evoluir tanto na `programação` quanto no `design`!
 
-**Fale comigo:**
+**Entre em contato comigo:**
 
   <a href="https://www.linkedin.com/in/eloahsousa">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -91,3 +91,12 @@ Estou sempre em constante aprendizado, buscando evoluir tanto na `programação`
 </picture>
 
 ---
+
+<div align="center">
+
+<p align="center">
+  <img src="assets/gatinhopc.jfif" width="200px" height="100px" alt="Gatinho" />
+</p>
+
+<!-- Statistics -->
+### Estatísticas
