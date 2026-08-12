@@ -1,33 +1,26 @@
-nome : Gerar animação do Pac-Man
-
-sobre :
-  Agendamento : # executar a cada 12 horas
-    - cron : " * */12 * * * "
-
-  workflow_dispatch :
-
-  empurrar :
-    galhos :
-    - principal
-
-empregos :
-  gerar :
-    permissões :
-      Conteúdo : escrever
-    runs-on : ubuntu-latest
-    tempo limite em minutos : 5
-
-    passos :
-      - nome : gerar pacman-contribution-graph.svg
-        usa : abozanona/pacman-contribution-graph@main
-        com :
-          github_user_name : ${{ github.repository_owner }}
-
-
-      - nome : enviar pacman-contribution-graph.svg para o ramo de saída
-        usa : crazy-max/ghaction-github-pages@v3.1.0
-        com :
-          target_branch : saída
-          diretório_de_compilação : dist
-        ambiente :
-          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }}
+name: Gerar animação do Pac-Man
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: gerar pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+      - name: enviar pacman-contribution-graph.svg para o ramo de saída
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
