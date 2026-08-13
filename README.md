@@ -1,6 +1,6 @@
 <!--- Banner -->
 <p align="center">
-  <img src="assets/malenia1.gif" width="800px" height="500px" alt="Malenia Gif" />
+  <img src="assets/malenia1.gif" width="800px" height="400px" alt="Malenia Gif" />
 </p>
 
 </br> 
