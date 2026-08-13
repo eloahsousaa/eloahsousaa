@@ -58,6 +58,21 @@ Tenho conhecimento em `HTML`, `CSS`, `JavaScript`, `Typescript`, `Node.js`, `Pos
 
 </div>
 
+---
+
+<!--- Portfolio -->
+<div align="center">
+
+### Portfólio Online
+
+<p align="center">
+
+  🔗 [Acesse o Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523003/)
+
+</p>
+
+</div>
+
 --- 
 
 <img src="assets/enderman.gif" width=300 align="right">
