@@ -1,6 +1,6 @@
 <!--- Banner -->
 <p align="center">
-  <img src="assets/malenia1.gif" width="1000px" height="500px" alt="Malenia Gif" />
+  <img src="assets/malenia1.gif" width="800px" height="500px" alt="Malenia Gif" />
 </p>
 
 </br> 
@@ -95,8 +95,28 @@ Estou sempre em constante aprendizado, buscando evoluir tanto na `programação`
 <div align="center">
 
 <p align="center">
-  <img src="assets/gatinhopc.jfif" width="200px" height="100px" alt="Gatinho" />
+  <img src="assets/catkiss.gif" width="250px" height="100px" alt="Gatinho" />
 </p>
 
 <!-- Statistics -->
 ### Estatísticas
+
+</div>
+
+| ![Eloah Stats Profile](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=eloahsousaa&mode-daily&theme=midnight_purple&title_color=DA70D6&icon_color=EE82EE") | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=eloahsousaa&hide=Html&theme=midnight_purple) | ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=eloahsousaa&theme=midnight_purple) |
+| :-: | :-: | :-: |
+
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=eloahsousaa&theme=midnight_purple) | ![](https://streak-stats.demolab.com?user=eloahsousaa&locale=en&mode=daily&theme=midnight_purple&hide_border=false&border_radius=5&order=3) |
+| :-: | :-: |
+
+--- 
+
+<p align="center">
+  <img src="assets/fireandblood.gif" width="500px" alt="GIF targaryen" />
+</p>
+
+</br> 
+
+<p align="center">
+  💜 
+</p>
